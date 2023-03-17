@@ -1,0 +1,182 @@
+body {
+    font-family: "Roboto";
+    background-color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+header {
+    background-color: #F2F2F2;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #20a8b4;
+    font-size: 30px;
+    display: flex;
+    padding-left: 16px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#code {
+    color: #ff5c0f;
+    padding-left: 6px;
+}  
+
+nav {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    font-size: 13px;
+  }
+  
+  
+li a {
+    display: flex;
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    padding: 4px;
+    border: none;
+    margin: 0;
+    width: 100%;
+ }
+
+button {
+    background-color: #20a8b4;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    width: 100%;
+    text-align: left;
+    margin-right: 20px;
+}
+
+  a:hover {
+    color: #ff5c0f;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+#box-left {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+
+#h2 {
+    color:#ff5c0f;
+    display: inline-flex;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 70px;
+    margin: 0;
+}
+
+p {
+    padding-bottom: 4px;
+}
+
+img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+   
+    button {
+    width: auto;
+    overflow: hidden;
+    max-width: 100px;
+   }
+
+   header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+   }
+
+   h1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+  
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    margin: auto;
+    align-items: center;
+  }
+  
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:center;
+  }
+
+#box-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding-top: 100px;
+    padding-right: 70px;
+    width: 50%;
+}
+
+#box-right {
+    display: inline-block;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    width: 50%;
+}
+
+img {
+    display: flex;
+    float: right;
+    width: 500px;
+    height: auto;
+    padding-top: 70px;
+    padding-right: 80px;
+   }
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+p {
+    padding: 2px 0px 2px 0px;
+}
+}
